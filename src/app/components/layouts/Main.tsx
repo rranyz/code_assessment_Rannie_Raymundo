@@ -6,7 +6,7 @@ interface MainContent {
 
 const Main = function ({ children }: MainContent) {
   return (
-    <main className="container mx-auto p-4 min-h-[889px] shadow-2xl">
+    <main className="container mx-auto p-4 min-h-[841px] shadow-2xl">
       {children}
     </main>
   )
